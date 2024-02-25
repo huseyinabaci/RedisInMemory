@@ -1,0 +1,8 @@
+﻿<h1>Show</h1>
+@* <h1>@ViewBag.Name</h1> *@
+
+@{
+    Product p = ViewBag.Product as Product;
+}
+
+<h1>@p.Id - @p.Name - @p.Price</h1>
